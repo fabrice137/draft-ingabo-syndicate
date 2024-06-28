@@ -1,0 +1,135 @@
+header, main, footer{
+    margin: 10px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ACE1AF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TOPNAV STYES STARTS */
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+}
+
+.tn{
+    /* border: 1px solid black; */
+}
+
+.left{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.right{
+    display: flex;
+    width: 18%;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+.orgname{
+    /* border: 1px solid black; */
+    width: 200px;
+}
+
+.explore-link ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.explore-link{
+    /* border: 1px solid black; */
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+/* TOPNAV STYES ENDS */
+
+
+
+.main-content{
+    background-color: #17B169;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-section{
+    border: 10px;
+    width: 90%;
+}
+
+.core-feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-content{
+    /* border: 1px solid yellow; */
+    width: 95%;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.pictext{
+    /* border: 1px solid red; */
+    float: left;
+    width: 50%;
+}
+
+img {
+    width: 300px;
+    height: 150px;
+  }
+
+#wrapper{
+    width: 90%;
+    min-width: 600px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #006400;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+
+
+/* FOOTER CSS START */
+
+.footer-list{
+    float: left;
+    width: 25%;
+}
+
+.footer-list ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* FOOTER CSS END */
