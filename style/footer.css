@@ -1,0 +1,76 @@
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f8f7f0;
+
+    /* border: 1px solid black; */
+}
+
+.footer-item {
+    /* border: 1px solid black; */
+    
+    width: 33%;
+}
+
+.listed-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-descript{
+    width: 40%;
+    padding-left: 10px;
+}
+
+.social-links{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    
+    /* border: 1px solid black; */
+}
+
+.social-logo{
+    /* background-color: white; */
+    width: 30px;
+    height: 30px;
+    margin-right: 1em;
+}
+
+.social-logo img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover; /* This crops the image to cover the container */
+    object-position: center; /* This centers the image within the container */
+}
+
+.logo-undertext{
+    text-align: left;
+    text-wrap: balance;
+}
+
+
+.footer-list h4{
+    padding-left: 1.5em;
+}
+
+.footer-list ul li{
+    list-style: none;
+}
+
+.footer-list ul li a{
+    text-decoration: none;
+    color: #1f1e17;
+}
+
+.bottom-footer{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+/* FOOTER CSS END */

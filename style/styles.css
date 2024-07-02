@@ -1,79 +1,54 @@
-header, main, footer{
-    margin: 10px;
-    background-color: #f8f7f0;
-}
-
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    /* background-color: #005004; */
-    background-color: #4baf47;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* TOPNAV STYES STARTS */
-.topnav{
+main{
     display: flex;
-    justify-content: space-between;
-    /* align-items: end; */
-    width: 100%;
-}
-
-.left{
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
-}
 
-.orgname{
-    /* border: 1px solid black; */
-    width: 200px;
-    margin-left: 1em;
-}
-
-.explore-link{
-    /* border: 1px solid black; */
-    margin-right: 1.5em;
-    display: flex;
-    justify-content: flex-end;
-    align-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-}
-
-.explore-link ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 10px;
+    background-image: url('../images/cassava-field-background-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    
+    /* width: 100vh;
+    height: 100vh; */
 }
 
 
 
-
-/* TOPNAV STYES ENDS */
 
 
 
 .main-content{
-    background-color: #f8f7f0;
-    width: 100%;
+    /* background-color: #f8f7f0; */
+    /* width: 100%; */
+    /* mix-blend-mode: lighten; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* padding-top: 15em;
+    padding-bottom: 15em; */
+
+    border: 3px solid red;
 }
 
 .text-content{
+    /* background-color: #e4e2d7; */
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 60%;
+    color: #f8f7f0;
+    /* padding-top: 15em; */
     /* height: 10em; */
     /* border: 1px solid black; */
 }
@@ -82,6 +57,7 @@ body {
     padding-top: 1em;
     padding-bottom: 3em;
     text-align: center;
+    color: #e4e2d7;
     /* border: 1px solid black; */
 }
 
@@ -97,7 +73,7 @@ body {
 }
 
 .login-form{
-    /* margin-top: 55px; */
+    background-color: #f8f7f0;
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -144,100 +120,14 @@ body {
     align-items: center;
     width: 180px;
     height: 60px;
-    color: #e4e2d7;
-    background: #4baf47;
-    border-radius: 30px;
+    color: #1f1e17;
+    /* background: #4baf47; */
+    border-radius: 20px;
     font-size: 19px;
     font-weight: 700;
     cursor: pointer;
 }
 
-#wrapper{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    /* background-color: #ffe922; */
-    background-color: #4baf47;
-
-    width: 90%;
-    min-width: 600px;
-    max-width: 1100px;
+.left-btn{
+    background: #EEC044;
 }
-
-
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* border: 1px solid black; */
-}
-
-
-
-/* FOOTER CSS START */
-
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    /* flex-direction: row; */
-}
-
-.footer-item {
-    width: 250px;
-    margin: 10px;
-    /* border: 2px solid #c40f0f; */
-}
-
-.company-descript{
-    width: 300px;
-    /* border: 1px solid black; */
-}
-
-.social-links{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    display: flex;
-    flex-direction: row;
-    width: 200px;
-    
-    /* border: 1px solid black; */
-}
-
-.social-logo{
-    background-color: white;
-    width: 30px;
-    height: 30px;
-    margin-right: 1em;
-}
-
-.social-logo img{
-    width: 30px;
-    height: 30px;
-    object-fit: cover; /* This crops the image to cover the container */
-    object-position: center; /* This centers the image within the container */
-}
-
-.logo-undertext{
-    text-align: left;
-    text-wrap: balance;
-}
-.footer-list{
-    /* border: 1px solid black; */
-}
-
-.footer-list h4{
-    padding-left: 1.5em;
-}
-
-.footer-list ul li{
-    list-style: none;
-    list-style-position: initial;
-}
-
-ul li a{
-    text-decoration: none;
-    color: rgb(14, 14, 14);
-}
-
-/* FOOTER CSS END */
